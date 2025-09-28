@@ -39,18 +39,18 @@
       "main.js",
       "preload.js",
       "package.json",
-      "icon.svg"
+      "icon.png"
     ],
     "directories": {
       "output": "dist"
     },
     "win": {
       "target": "nsis",
-      "icon": "icon.svg"
+      "icon": "icon.png"
     },
     "linux": {
       "target": "AppImage",
-      "icon": "icon.svg"
+      "icon": "icon.png"
     }
   }
 }
