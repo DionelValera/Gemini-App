@@ -1,0 +1,56 @@
+{
+  "name": "gemini",
+  "version": "1.0.0",
+  "description": "Gemini es el asistente de IA de Google.",
+  "keywords": [
+    "gemini",
+    "google",
+    "ai",
+    "asistente",
+    "inteligencia",
+    "artificial",
+    "chatbot"
+  ],
+  "homepage": "https://github.com/DionelValera/Gemini-app",
+  "bugs": {
+    "url": "https://github.com/DionelValera/gemini-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DionelValera/gemini-app.git"
+  },
+  "license": "ISC",
+  "author": "Dionel Valera",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.dionelvalera.geminiapp",
+    "productName": "Gemini",
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json",
+      "icon.svg"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.svg"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.svg"
+    }
+  }
+}
