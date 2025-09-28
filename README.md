@@ -50,7 +50,7 @@ Esta aplicación envuelve la web de Gemini en un entorno dedicado de escritorio 
 
 Descarga el instalador correspondiente a tu sistema operativo. <br/>
 ↓↓↓↓↓↓↓↓<br/>
-[Ultimas Versiones]](https://github.com/DionelValera/gemini-desktop/releases/tag/stable-release)
+[Ultimas Versiones](https://github.com/DionelValera/gemini-desktop/releases/tag/stable-release)
 
 ### 💻 Windows
 
