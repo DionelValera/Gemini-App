@@ -51,7 +51,7 @@ Descarga el instalador correspondiente a tu sistema operativo. <br/>
 ### 💻 Windows
 
 * **Instalador:**
-[Gemini setup 1.0.exe](https://github.com/DionelValera/gemini-desktop/releases/download/stable-release/Gemini-Setup-1.0.exe)
+[Gemini setup 1.0.exe](https://github.com/DionelValera/gemini-desktop/releases/download/stable-release/Gemini.Setup.1.0.exe)
 
 ### 🐧 Linux
 
